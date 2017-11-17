@@ -4,7 +4,13 @@
 	<meta charset="utf-8">
 	<title>Gem Game</title>
 
-	<!-- Addons -->
+<!-- Addons -->
+	<!-- reset css file. -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- style css file. -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- JQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 <body>
@@ -24,20 +30,52 @@
 			<br>
 			<p>The value of each crystal is hidden from you until you ckick on it.</p>
 			<br>
-			<p>Each time when the game starts, the game will change the values of esch crystal.</p>
+			<p>Each time when the game starts, the game will change the values of each crystal.</p>
 
 		</section>
+
+		<div class="computerScoreBox">
+
+			<span id="compChoice"></span>
+
+		</div>
+
+		<aside class="gameaScoreBox">
+			<p></p>
+			<p>wins:<span></span></p>
+			<p>Losses:<span></span></p>
+			
+		</aside>
+
+		<div class="gemButtonsBox">
+			
+			<button></button>
+			<button></button>
+			<button></button>
+			<button></button>
+		</div>
+
+		<div class="totalScoreBox">
+			<p>Your total score is:<span></span></p>
+		</div>
+
+		<div class="playersScoreBox">
+			
+			<span></span>
+		</div>
 
 
 	</div>
 
-
+	
 
 
 
 
 
 <!-- Addons -->
+	<!-- game Javascript file. -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 </html>
